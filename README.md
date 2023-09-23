@@ -1,5 +1,5 @@
 # nickel
-Nickel à Limoilou
+
 Va produire ces graphiques:
 ![image](https://github.com/gloignon/nickel/assets/12416756/b3f21c02-eb8d-44da-8b60-85110132daaa)
 
