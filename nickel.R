@@ -11,6 +11,7 @@ df_nickel_lim <-
       Station == "03006 - Québec - Vieux-Limoilou"
   )
 
+# échelle log
 df_nickel_lim %>% ggplot(aes(x = Date, y = Resultat, color = Contaminant)) +
   geom_line() +
   geom_smooth()+
@@ -18,6 +19,7 @@ df_nickel_lim %>% ggplot(aes(x = Date, y = Resultat, color = Contaminant)) +
   ggpubr::theme_pubclean() +
   labs(title = "Nickel à Limouilou", caption = "Allo Sol", y = "Résultat (log10)")
 
+# échelle linéaire
 df_nickel_lim %>% ggplot(aes(x = Date, y = Resultat, color = Contaminant)) +
   geom_line() +
   geom_smooth()+
